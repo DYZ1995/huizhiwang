@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul>li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 66px;
+    background: #343C3F;
+}
+nav{
+    width: 1128px;
+    margin: 0 auto;
+}
+header ul>li{
+    display: inline-block;
+    color: #9F9F9F;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 66px;
+}
+.f_nav{
+    float:left;
+}
+.f_m{
+    width: 90px;
+    text-align: center;
+    line-height: 66px;
+}
+.f_m:hover{
+    background: #3B4E60;
+    cursor: pointer;
+}
+#p1{
+    position: relative;
+    top: 10px;
+}
+.s_nav{
+    float: right;
+
+}
+.s_nav>li>a{
+    color: #9F9F9F;
+}
+.s_m{
+    margin-right: 20px;
+}
+.s_m::before{
+    content: url("../images/list_h2.png");
+}
+.zhuce::before{
+    content: url("../images/list_h3.png");
+}
+article{
+    height: 980px;
+}
+
+
+
+footer{
+    height: 493px;
+    background: #343C3F;
+}
+.main6{
+    height: 375px;
+    background: #343C3F;
+}
+.div_m6{
+    margin: 0 auto;
+    width: 1120px;
+}
+.div_m6>div{
+    position: relative;
+    top: 60px;
+}
+.dm6_1{
+    width: 340px;
+    float: left;
+}
+.dm6_1>ul>li>p{
+    text-indent: 2em;
+    color: #CCCCCC;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.dm6_1>ul>li{
+    margin-top: 20px;
+}
+.dm6_2{
+    float: right;
+    margin-right: 100px;
+}
+.dm6_2>ul{
+    float: left;
+
+}
+.dm6_2>ul>li{
+    color: #999999;
+    line-height: 30px;
+    font-size: 13px;
+}
+.dm6_2>ul>li>a{
+    color: #cccccc;
+    font-size: 14px;
+}
+.dm6_2>ul>li>a:hover{
+    color: #85a6ff;
+}
+.dm6_u1{
+    margin-right: 100px;
+}
+.dm6_u2{
+    margin-right: 150px;
+}
+
+#weixin{
+    margin-top: 20px;
+}
+#a1:before{
+    content: url("../images/main6_3.png");
+}
+#a2:before{
+    content: url("../images/main6_4.png");
+}
+#a3:before{
+    content: url("../images/main6_5.png");
+}
+#a4:before{
+    content: url("../images/main6_6.png");
+}
+#a5:before{
+    content: url("../images/main6_7.png");
+}
+#a6:before,#a7:before{
+    content: url("../images/main6_8.png");
+}
+.footer{
+    height: 118px;
+
+}
+.footer{
+    width: 1290px;
+    margin: 0 auto;
+    border-top: 1px solid #4D595D;
+    text-align: center;
+    line-height: 118px;
+    font-size:14px;
+    color: #BABCBE;
+}
